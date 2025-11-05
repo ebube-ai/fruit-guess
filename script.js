@@ -47,8 +47,9 @@ if(guessFruit==""){
         remark.style.backgroundColor = "red"
     }
 
-    fruitImg.src ="img/"+ fruits[indexNumber] + ".jpeg"
+    fruitImg.src =fruits[indexNumber] + ".jpeg"
 }
+
 
 
 }
