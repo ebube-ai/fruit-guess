@@ -10,8 +10,8 @@ body div.container{
 }
 
 div.container div.appcontent h2{
-    font-size: 2.2rem;
-    margin: 10px;
+margin: 12px;
+font-size: 2.3rem;
 }
 
 div.container div.appcontent p.question{
@@ -19,44 +19,46 @@ div.container div.appcontent p.question{
 }
 
 div.container div.appcontent{
-    border: 2px solid #33a4de;
-    padding: 2%;
-    margin: 1%;
-    border-radius: 10px;
+    border-radius: 8px;
     text-align: center;
+    margin: 2%;
+    padding: 3%;
+    border: 2px solid black;
     width: 90%;
     max-width: 600px;
     background-color: #7a92aa;
 }
 
 div.container div.appcontent div.inputdiv{
-    margin: 6% 0;
+    margin: 5% 0;
 }
 
-div.appcontent div.inputdiv input.guessfruit{
+div.appcontent div.inputdiv input.guesscar{
     padding: 3%;
     font-size: 25px;
     border-radius: 5px;
     border: none;
     outline: none;
+    width: 90%;
 }
 
 div.appcontent div.inputdiv button.btn{
     padding: 3% 3%;
-    border-radius: 10px;
-    background-color: gray;
-    color: black;
-    font-size: 26px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
     border: none;
     outline: none;
     cursor: pointer;
 }
 
-div.appcontent div.imagediv img.fruitimg{
+div.appcontent div.imagediv img.carimg{
     width: 350px;
-    height: 27vh;
-    border-radius: 10px;
+    border-radius: 8px;
     margin-top: 5%;
+    padding: 3%;
+    height: 25vh;
 }
 
 div.appcontent div.remarkcontainer{
@@ -69,22 +71,22 @@ div.appcontent div.resultcontainer{
     justify-content: center;
 }
 
+div.appcontent div.resultcontainer div.result{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
 div.appcontent div.remarkcontainer div.remark{
-    background-color: #00ff2f;
     padding: 2%;
     border-radius: 5px;
+    background-color: #00ff2f;
 }
 
-div.appcontent div.resultcontainer div.result{
- font-size: 20px;
- margin-top:10px ;   
-}
-
-div.result p span.fruitname{
+div.result p span.carname{
     font-weight: bold;
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .hide{
-display: none;
+    display: none;
 }
